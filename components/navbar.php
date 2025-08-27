@@ -19,69 +19,71 @@
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
                             <div class="dropdown-menu bg-light rounded-0 rounded-bottom m-0">
-                                <a href="feature.html" class="dropdown-item">Features</a>
-                                <a href="team.html" class="dropdown-item">Our Team</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                                <a href="appoinment.html" class="dropdown-item">Appoinment</a>
-                                <a href="404.html" class="dropdown-item">404 Page</a>
+                                <a href="about-mci.php" class="dropdown-item">About MCI</a>
+                                <a href="why-choose-the-cook-islands.php" class="dropdown-item">Why Choose The Cook Islands</a>
+                                <a href="#" class="dropdown-item">Meet The Team</a>
+                                <a href="#" class="dropdown-item">Cook Islands Agents</a>
+                                <a href="#" class="dropdown-item">Ministry Of Transport</a>
                             </div>
                         </div>
 
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Cook Islands</a>
                             <div class="dropdown-menu bg-light rounded-0 rounded-bottom m-0">
-                                <a href="feature.html" class="dropdown-item">Features</a>
-                                <a href="team.html" class="dropdown-item">Our Team</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                                <a href="appoinment.html" class="dropdown-item">Appoinment</a>
-                                <a href="404.html" class="dropdown-item">404 Page</a>
+                                <a href="#" class="dropdown-item">Sanctions Monitoring Program</a>
+                                <a href="#" class="dropdown-item">Cook Islands Maritime Legislation</a>
+                                <a href="#" class="dropdown-item">Cook Islands Maritime Jurisdiction</a>
+                                <a href="#" class="dropdown-item">International Maritime Organization</a>
+                                <a href="#" class="dropdown-item">Cook Islands Lawyers</a>
+                                <a href="#" class="dropdown-item">Approved Fuel Suppliers</a>
                             </div>
                         </div>
 
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Registration</a>
                             <div class="dropdown-menu bg-light rounded-0 rounded-bottom m-0">
-                                <a href="feature.html" class="dropdown-item">Features</a>
-                                <a href="team.html" class="dropdown-item">Our Team</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                                <a href="appoinment.html" class="dropdown-item">Appoinment</a>
-                                <a href="404.html" class="dropdown-item">404 Page</a>
+                                <a href="#" class="dropdown-item">Online Application</a>
+                                <a href="#" class="dropdown-item">Vessel Registration Requirements</a>
+                                <a href="#" class="dropdown-item">Yacht Registration</a>
+                                <a href="#" class="dropdown-item">Ownership Structure</a>
+                                <a href="#" class="dropdown-item">Mortgage Registration</a>
+                                <a href="#" class="dropdown-item">Civil Liability Certificates</a>
                             </div>
                         </div>
 
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Survey and Certification</a>
                             <div class="dropdown-menu bg-light rounded-0 rounded-bottom m-0">
-                                <a href="feature.html" class="dropdown-item">Features</a>
-                                <a href="team.html" class="dropdown-item">Our Team</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                                <a href="appoinment.html" class="dropdown-item">Appoinment</a>
-                                <a href="404.html" class="dropdown-item">404 Page</a>
+                                <a href="#" class="dropdown-item">Classification Societies</a>
+                                <a href="#" class="dropdown-item">Recognised Security Organisations</a>
+                                <a href="#" class="dropdown-item">Cook Islands Approved Surveyors</a>
+                                <a href="#" class="dropdown-item">Port State Control Compliance Support</a>
+                                <a href="#" class="dropdown-item">Electronic Certificate Verification</a>
+                                <a href="#" class="dropdown-item">Ship to Ship Transfers</a>
+                                <a href="#" class="dropdown-item">Safe Manning Guidelines</a>
                             </div>
                         </div>
 
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Seafarers</a>
                             <div class="dropdown-menu bg-light rounded-0 rounded-bottom m-0">
-                                <a href="feature.html" class="dropdown-item">Features</a>
-                                <a href="team.html" class="dropdown-item">Our Team</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                                <a href="appoinment.html" class="dropdown-item">Appoinment</a>
-                                <a href="404.html" class="dropdown-item">404 Page</a>
+                                <a href="#" class="dropdown-item">Seafarer Training & Certification</a>
+                                <a href="#" class="dropdown-item">Certificate of Endorsement</a>
+                                <a href="#" class="dropdown-item">Approved Training Centres</a>
+                                <a href="#" class="dropdown-item">Seafarer Discharge Book</a>
+                                <a href="#" class="dropdown-item">STCW Dispensations</a>
+                                <a href="#" class="dropdown-item">Certificate of Medical Fitness</a>
+                                <a href="#" class="dropdown-item">Seafarer Certificate Verification</a>
+                                <a href="#" class="dropdown-item">Seafarers FAQ</a>
                             </div>
                         </div>
 
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Info Centre</a>
                             <div class="dropdown-menu bg-light rounded-0 rounded-bottom m-0">
-                                <a href="feature.html" class="dropdown-item">Features</a>
-                                <a href="team.html" class="dropdown-item">Our Team</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                                <a href="appoinment.html" class="dropdown-item">Appoinment</a>
-                                <a href="404.html" class="dropdown-item">404 Page</a>
-                            </div>
+                                <a href="#" class="dropdown-item">Document Library</a>
+                                <a href="#" class="dropdown-item">Calendar Of Events</a>
                         </div>
-
                     
                     </div>
                     <div class="ms-auto d-none d-lg-block">

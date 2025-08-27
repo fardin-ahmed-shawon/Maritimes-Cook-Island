@@ -451,7 +451,7 @@ $page_title = 'Home'; // Set the page title
                         <div class="service-inner pb-5">
                             <img class="img-fluid w-100" src="img/slider4.jpg" alt="">
                             <div class="service-text px-5 pt-4">
-                                <h5 class="text-uppercase">Yacht Registration</h4>
+                                <h5 class="text-uppercase">News 1</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.
                                     </p>
                             </div>
@@ -465,7 +465,7 @@ $page_title = 'Home'; // Set the page title
                         <div class="service-inner pb-5">
                             <img class="img-fluid w-100" src="img/slider1.jpg" alt="">
                             <div class="service-text px-5 pt-4">
-                                <h5 class="text-uppercase">Bunker Services</h4>
+                                <h5 class="text-uppercase">News 2</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.
                                     </p>
                             </div>
@@ -479,7 +479,7 @@ $page_title = 'Home'; // Set the page title
                         <div class="service-inner pb-5">
                             <img class="img-fluid w-100" src="img/slider2.jpg" alt="">
                             <div class="service-text px-5 pt-4">
-                                <h5 class="text-uppercase">Seafarer Training</h4>
+                                <h5 class="text-uppercase">News 3</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.
                                     </p>
                             </div>
@@ -493,7 +493,7 @@ $page_title = 'Home'; // Set the page title
                         <div class="service-inner pb-5">
                             <img class="img-fluid w-100" src="img/slider5.jpg" alt="">
                             <div class="service-text px-5 pt-4">
-                                <h5 class="text-uppercase">Merchant Ships</h4>
+                                <h5 class="text-uppercase">News 4</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.
                                     </p>
                             </div>
