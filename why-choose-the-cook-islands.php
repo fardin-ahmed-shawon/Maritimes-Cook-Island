@@ -165,7 +165,7 @@ $page_title = 'About MCI'; // Set the page title
                         <h5>Title</h5>
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
-                </div>
+                </div> 
             </div>
         </div>
 
