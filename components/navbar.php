@@ -3,7 +3,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
                 <div>
-                    <a href="index.html" class="navbar-brand d-lg-none">
+                    <a href="/" class="navbar-brand d-lg-none">
                         <img class="logo" src="img/logo.svg" alt="">
                     </a>
                     <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
