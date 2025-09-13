@@ -21,6 +21,8 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/calendar.js"></script>
 </body>
 
 </html>

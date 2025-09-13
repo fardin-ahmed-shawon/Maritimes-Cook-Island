@@ -143,7 +143,14 @@ $page_title = 'Blank'; // Set the page title
             color: #fff !important;
             background-color: #22255B !important;
         } */
-
+    .hover-icon-position {
+        color: white;
+        position: absolute;
+        top: 16px;
+        right: 20px;
+        color: #6E72B7;
+        font-size: 40px;
+    }
 
         @media only screen and (max-width: 991px) {
             .logo {
@@ -170,19 +177,16 @@ $page_title = 'Blank'; // Set the page title
 <div class="container-fluid">
     <div class="container">
         <div class="row align-items-center mb-4">
-            <!-- Left Title -->
-            <div class="col-md-8 choose_us_title">
-                <h2 class="mb-0">Sanctions Monitoring Program</h2>
-            </div>
-            <!-- Right Title -->
-            <div class="col-md-4 text-start mt-3 mt-md-0 ps-4 popular_title">
-                <h2 class="mb-0">Popular Services</h2>
-            </div>
+
         </div>
 
         <div class="row choose_us">
-            <div class="col-md-8 bg_color">
-            <div class="row p-2">
+            <div class="col-md-12 col-lg-8">
+                            <!-- Left Title -->
+            <div class="col-md-8 choose_us_title">
+                <h2 class="mb-0">Sanctions Monitoring Program</h2>
+            </div>
+            <div class="row p-2 bg_color">
             <div class="col-md-12 py-3">
                 <div class="row">
                     <div class="col-md-12">
@@ -237,9 +241,9 @@ $page_title = 'Blank'; // Set the page title
                             <strong>Link below MCI circulars</strong>
                         </p>
                         <ul>
-                            <li><a href="">AIS</a></li>
-                            <li><a href="">STS</a></li>
-                            <li><a href="">OPC Attestations</a></li>
+                            <li><a href="./pdf/MCI-Circular-298-Automatic-Identification-Systems.pdf">AIS</a></li>
+                            <li><a href="./pdf/MCI-Circular-297-2024-STS-Transfer.pdf">STS</a></li>
+                            <li><a href="./pdf/MCI-Circular-302-2024-Oil-Cap-Attestation.pdf">OPC Attestations</a></li>
                         </ul>
                      </div>
                      <div class="contact">
@@ -253,57 +257,73 @@ $page_title = 'Blank'; // Set the page title
             </div>
             </div>
             </div>
-            <div class="col-md-4 ps-4">
-        <div class="popular-services position-relative">
-            <img src="../img/popular-ser-2.jpg" alt="" class="image-fluid w-100">
-            
-            <div class="popular-ser-desc position-absolute">
-                <h3 class="text-white fs-4">Merchant Ships</h3>
-            </div>
+            <div class="col-md-4 ps-4 d-none d-lg-block">
+                <!-- Right Title -->
+                <div class=" text-start mt-3 mt-md-0 ps-4 popular_title">
+                    <h2 class="mb-5">Popular Services</h2>
+                </div>
+                <div class="popular-services position-relative">
+                    <img src="./img/popular services img 1.jpg" alt="" class="image-fluid w-100">
 
-            <div class="content_hover position-absolute">
-                <a href="">
-                    <h3 class="text-white fs-4">Merchant Ships</h3>
-                </a>
-                <p class="text-p">
-            Maritime Cook Islands Administrator of the Cook Islands ships registry, operates as an open registry with its main office in Rarotonga, Cook Islands, with additional offices in Italy and Monaco.
-                </p>
-            </div>
-        </div>
+                    <div class="popular-ser-desc position-absolute">
+                        <h3 class="text-white fs-4">Bunker/Wrecks/CLC Services</h3>
+                    </div>
 
-        <div class="popular-services position-relative mt-5">
-            <img src="../img/popular-ser-1.jpg" alt="" class="image-fluid w-100">
-            
-            <div class="popular-ser-desc position-absolute">
-                <h3 class="text-white fs-4">Bunker/Wrecks/CLC Services</h3>
-            </div>
+                    <div class="content_hover position-absolute">
+                        <a href="">
+                            <h3 class="text-white fs-4">Bunker/Wrecks/CLC Services</h3>
+                        </a>
+                        <p class="text-p">
+                            There is no legal or other impediment to any P&I Club / Insurer
+                            offering cover to Cook Islands flagged vessels.
+                        </p>
+                    </div>
+                                        <div class="content_hover position-absolute">
+                        <a href=""> <span class="ms-5 hover-icon-position"><i class="fa-solid fa-arrow-right"></i></a>
 
-            <div class="content_hover position-absolute">
-                <a href="">
-                    <h3 class="text-white fs-4">Bunker/Wrecks/CLC Services</h3>
-                </a>
-                <p class="text-p">
-                    There is no legal or other impediment to any P&I Club / Insurer 
-                    offering cover to Cook Islands flagged vessels.
-                </p>
-            </div>
-        </div>
-        <div class="popular-services position-relative mt-5">
-            <img src="../img/popular-ser-3.jpg" alt="" class="image-fluid w-100">
-            
-            <div class="popular-ser-desc position-absolute">
-                <h3 class="text-white fs-4">Seafarer Training & Certification</h3>
-            </div>
+                        <a href="">
+                            <h3 class="text-white fs-4">Bunker/Wrecks/CLC Services</h3>
+                        </a>
+                        <p class="text-p">
+                        There is no legal or other impediment to any P&I Club / Insurer offering cover to Cook Islands flagged vessels.
 
-            <div class="content_hover position-absolute">
-                <a href="">
-                    <h3 class="text-white fs-4">Seafarer Training & Certification</h3>
-                </a>
-                <p class="text-p">
-            Learn more about our application processes and seafarer services, take the first steps towards Cook Islands STCW certification, and verify the validity of Cook Islands certificates.
-                </p>
-            </div>
-        </div>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="popular-services position-relative mt-5">
+                    <img src="./img/popular services img 2.jpg" alt="" class="image-fluid w-100">
+                    <div class="popular-ser-desc position-absolute">
+                        <h3 class="text-white fs-4">Merchant Ships</h3>
+                    </div>
+                    <div class="content_hover position-absolute">
+                        <a href=""> <span class="ms-5 hover-icon-position"><i class="fa-solid fa-arrow-right"></i></a>
+
+                        <a href="">
+                            <h3 class="text-white fs-4">Merchant Ships</h3>
+                        </a>
+                        <p class="text-p">
+                            Maritime Cook Islands Administrator of the Cook Islands ships registry, operates as an open registry with its main office in Rarotonga, Cook Islands, with additional offices in Italy and Monaco.
+                        </p>
+                    </div>
+                </div>
+                <div class="popular-services position-relative mt-5">
+                    <img src="./img/popular services img 3.jpg" alt="" class="image-fluid w-100">
+                    <div class="popular-ser-desc position-absolute">
+                        <h3 class="text-white fs-4">Seafarer Training & Certification</h3>
+                    </div>
+                    <div class="content_hover position-absolute">
+                        <a href=""> <span class="ms-5 hover-icon-position"><i class="fa-solid fa-arrow-right"></i></a>
+
+                        <a href="">
+                            <h3 class="text-white fs-4">
+                                Seafarer Training & Certification</h3>
+                        </a>
+                        <p class="text-p">
+                            There is no legal or other impediment to any P&I Club / Insurer offering cover to Cook Islands flagged vessel
+                        </p>
+                    </div>
+                </div>
 
             </div>
         </div>

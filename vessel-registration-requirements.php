@@ -11,10 +11,12 @@ $page_title = 'Blank'; // Set the page title
         background-position: center;
     }
     .text-p{
-        font-size: 14px;
-        font-weight: 300;
-        line-height: 25px;
-        margin-top: 15px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-top: 15px;
+    font-family: "Roboto", sans-serif;
+    color: #363636;
     }
      .bg-primary {
             background-color: #22255B !important;
@@ -90,13 +92,11 @@ $page_title = 'Blank'; // Set the page title
         left: 0;
         width: 100%;
         height: 100%;
-        padding: 20px 20px 0px 20px;
+        padding: 60px 20px 0px 20px;
         background: #181A40; /* overlay bg */
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-
         opacity: 0;
         visibility: hidden;
         transition: 0.3s ease;
@@ -107,6 +107,30 @@ $page_title = 'Blank'; // Set the page title
         opacity: 1;
         visibility: visible;
         }
+        .program-details p, .consequences p, .commitment p, .links p {
+        font-family: "Roboto", sans-serif;
+        color: #000000a8;
+        font-weight: 400;
+    }
+
+    .program-details ul li {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 25px;
+        margin-top: 15px;
+        font-family: "Roboto", sans-serif;
+        color: #363636;
+    }
+    .links ul li a {
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    }
+
+    .contact p {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        color: #363636;
+    }
 
         /* .navbar-nav, .navbar {
             background-color: #22255B !important;
@@ -119,7 +143,14 @@ $page_title = 'Blank'; // Set the page title
             color: #fff !important;
             background-color: #22255B !important;
         } */
-
+    .hover-icon-position {
+        color: white;
+        position: absolute;
+        top: 16px;
+        right: 20px;
+        color: #6E72B7;
+        font-size: 40px;
+    }
 
         @media only screen and (max-width: 991px) {
             .logo {
@@ -145,19 +176,17 @@ $page_title = 'Blank'; // Set the page title
 <div class="container-fluid">
     <div class="container">
         <div class="row align-items-center mb-4">
-            <!-- Left Title -->
-            <div class="col-md-8 choose_us_title">
-                <h2 class="mb-0">Vessel Registration Requirements</h2>
-            </div>
-            <!-- Right Title -->
-            <div class="col-md-4 text-start mt-3 mt-md-0 ps-4 popular_title">
-                <h2 class="mb-0">Popular Services</h2>
-            </div>
+
+
         </div>
 
         <div class="row choose_us">
-            <div class="col-md-8 bg_color">
-            <div class="row p-2">
+            <div class="col-md-12 col-lg-8">
+                            <!-- Left Title -->
+            <div class="col-md-8 choose_us_title">
+                <h2 class="mb-5">Vessel Registration Requirements</h2>
+            </div>
+            <div class="row p-2 bg_color">
             <div class="col-md-12 py-3">
                 <div class="row">
                     <div class="col-md-12">
@@ -175,7 +204,7 @@ $page_title = 'Blank'; // Set the page title
                       <ul>
                         <li>Bill of Sale / Builders Certificate</li>
                         <li>Evidence of Shareholding of Owners ( if more than one owner)</li>
-                        <li>Completed CISOA membership application <a href="">here</a></li>
+                        <li>Completed CISOA membership application <a href="ownership-structure.php">here</a></li>
                       </ul>  
                       <p>
                         <br>
@@ -215,44 +244,74 @@ $page_title = 'Blank'; // Set the page title
             </div>
             </div>
             </div>
-            <div class="col-md-4 ps-4">
-<div class="popular-services position-relative">
-            <img src="../img/popular-ser-1.jpg" alt="" class="image-fluid w-100">
-            
-            <div class="popular-ser-desc position-absolute">
-                <h3 class="text-white fs-4">Bunker/Wrecks/CLC Services</h3>
-            </div>
+            <div class="col-md-4 ps-4 d-none d-lg-block">
+                <!-- Right Title -->
+                <div class=" text-start mt-3 mt-md-0 ps-4 popular_title">
+                    <h2 class="mb-5">Popular Services</h2>
+                </div>
+                <div class="popular-services position-relative">
+                    <img src="./img/popular services img 1.jpg" alt="" class="image-fluid w-100">
 
-            <div class="content_hover position-absolute">
-                <a href="">
-                    <h3 class="text-white fs-4">Bunker/Wrecks/CLC Services</h3>
-                </a>
-                <p class="text-p">
-                    There is no legal or other impediment to any P&I Club / Insurer 
-                    offering cover to Cook Islands flagged vessels.
-                </p>
-            </div>
-        </div>
+                    <div class="popular-ser-desc position-absolute">
+                        <h3 class="text-white fs-4">Bunker/Wrecks/CLC Services</h3>
+                    </div>
 
-            <div class="popular-services position-relative mt-5">
-                <img src="../img/popular-ser-2.jpg" alt="" class="image-fluid w-100">
-                <div class="popular-ser-desc position-absolute">
-                    <h3 class="text-white fs-4">Merchant Ships</h3>
+                    <div class="content_hover position-absolute">
+                        <a href="">
+                            <h3 class="text-white fs-4">Bunker/Wrecks/CLC Services</h3>
+                        </a>
+                        <p class="text-p">
+                            There is no legal or other impediment to any P&I Club / Insurer
+                            offering cover to Cook Islands flagged vessels.
+                        </p>
+                    </div>
+                                        <div class="content_hover position-absolute">
+                        <a href=""> <span class="ms-5 hover-icon-position"><i class="fa-solid fa-arrow-right"></i></a>
+
+                        <a href="">
+                            <h3 class="text-white fs-4">Bunker/Wrecks/CLC Services</h3>
+                        </a>
+                        <p class="text-p">
+                        There is no legal or other impediment to any P&I Club / Insurer offering cover to Cook Islands flagged vessels.
+
+                        </p>
+                    </div>
                 </div>
-             </div>
-                 <div class="popular-services position-relative mt-5">
-                <img src="../img/popular-ser-3.jpg" alt="" class="image-fluid w-100">
-                <div class="popular-ser-desc position-absolute">
-                    <h3 class="text-white fs-4">Seafarer Training & Certification</h3>
+
+                <div class="popular-services position-relative mt-5">
+                    <img src="./img/popular services img 2.jpg" alt="" class="image-fluid w-100">
+                    <div class="popular-ser-desc position-absolute">
+                        <h3 class="text-white fs-4">Merchant Ships</h3>
+                    </div>
+                    <div class="content_hover position-absolute">
+                        <a href=""> <span class="ms-5 hover-icon-position"><i class="fa-solid fa-arrow-right"></i></a>
+
+                        <a href="">
+                            <h3 class="text-white fs-4">Merchant Ships</h3>
+                        </a>
+                        <p class="text-p">
+                            Maritime Cook Islands Administrator of the Cook Islands ships registry, operates as an open registry with its main office in Rarotonga, Cook Islands, with additional offices in Italy and Monaco.
+                        </p>
+                    </div>
                 </div>
-        
-             </div>
-              <div class="popular-services position-relative mt-5">
-                <img src="../img/popular-sec-4.jpg" alt="" class="image-fluid w-100">
-                <div class="popular-ser-desc position-absolute">
-                    <h3 class="text-white fs-4">Yacht Registration</h3>
+                <div class="popular-services position-relative mt-5">
+                    <img src="./img/popular services img 3.jpg" alt="" class="image-fluid w-100">
+                    <div class="popular-ser-desc position-absolute">
+                        <h3 class="text-white fs-4">Seafarer Training & Certification</h3>
+                    </div>
+                    <div class="content_hover position-absolute">
+                        <a href=""> <span class="ms-5 hover-icon-position"><i class="fa-solid fa-arrow-right"></i></a>
+
+                        <a href="">
+                            <h3 class="text-white fs-4">
+                                Seafarer Training & Certification</h3>
+                        </a>
+                        <p class="text-p">
+                            There is no legal or other impediment to any P&I Club / Insurer offering cover to Cook Islands flagged vessel
+                        </p>
+                    </div>
                 </div>
-             </div>
+
             </div>
         </div>
     </div>

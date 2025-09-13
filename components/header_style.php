@@ -3,8 +3,8 @@
             background-color: #22255B !important;
         }
 
-
-        /* .navbar-nav, .navbar {
+/* 
+        .navbar-nav, .navbar {
             background-color: #22255B !important;
         }
         .navbar .navbar-nav .nav-link {

@@ -3,13 +3,193 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
 $page_title = 'Blank'; // Set the page title
 ?>
 <?php require 'header.php'; ?>
+<style>
+    .about-mci-hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/slider5.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+.heading-title {
+    font-size: 44px;
+    line-height: 78px;
+    font-family: "Roboto",sans-serif;
+}
+.islands-title{
+    font-size: 20px;
+    line-height: 25px;
+
+}
+    .text-p {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 25px;
+        margin-top: 15px;
+    }
+
+    .bg-primary {
+        background-color: #22255B !important;
+    }
+
+    .bg_color {
+        background-color: #F7F7F7;
+    }
+
+    .popular-services {
+        width: 300px;
+        position: relative;
+    }
+
+    .popular-services:before {
+        background: #00000075;
+        width: 100%;
+        content: "";
+        height: 100%;
+        position: absolute;
+    }
+
+    .popular-ser-desc {
+        bottom: 15px;
+        left: 25px;
+    }
+
+    .choose_us_title h2::before,
+    .popular_title h2::before {
+        content: "";
+        position: absolute;
+        width: 55px;
+        height: 2px;
+        background: #e9732a;
+        bottom: -15px;
+        top: 60px;
+    }
+
+    .choose_us_title,
+    .popular_title {
+        position: relative;
+    }
+
+    .choose_us_title h2,
+    .popular_title h2 {
+        font-family: "Roboto", Sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .choose_us {
+        margin-top: 70px;
+    }
+
+    .content_hover p {
+        color: #D9D9E0;
+        font-weight: 300;
+        font-size: 16px;
+    }
+
+    .popular-services {
+        overflow: hidden;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .popular-services img {
+        transition: 0.3s ease;
+        display: block;
+        width: 100%;
+    }
+
+    .popular-ser-desc {
+        position: absolute;
+        bottom: 15px;
+        left: 20px;
+        z-index: 1;
+    }
+
+    .popular-ser-desc h3 {
+        margin: 0;
+    }
+
+    .content_hover {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 20px 20px 0px 20px;
+        background: #181A40;
+        /* overlay bg */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.3s ease;
+        z-index: 2;
+    }
+
+    .popular-services:hover .content_hover {
+        opacity: 1;
+        visibility: visible;
+    }
+.islands-team-item{
+    height: 338px;
+    background-color: #F7F7F7;
+    padding: 29px 64px 31px 21px;
+}
+    /* .navbar-nav, .navbar {
+            background-color: #22255B !important;
+        }
+        .navbar .navbar-nav .nav-link {
+            color: #fff !important;
+        }
+        .dropdown-item {
+            padding: 0px;
+            color: #fff !important;
+            background-color: #22255B !important;
+        } */
+    .icon-hover-position {
+        color: white;
+        position: absolute;
+        top: 16px;
+        right: 20px;
+        color: #6E72B7;
+        font-size: 40px;
+    }
+    .icon{
+        color: #e9732a;
+    }
+.team_name{
+font-size: 16px;
+line-height: 25px;
+color: #22255B;
+font-family: "Roboto",sans-serif;
+    }
+    @media only screen and (max-width: 991px) {
+.logo {
+width: 160px;
+}
+.team_name{
+font-size: 16px;
+
+    }
+}
+    @media only screen and (max-width: 450px) {
+.team_name{
+font-size: 12px;
+
+    }
+
+}
+</style>
 <!--=======================================================================-->
 <!------------------------ Your Content Start From Here --------------------->
 <!--=======================================================================-->
 
 <!-- Hero Banner Start -->
 <div class="container-fluid bg-primary py-5 mb-5 hero-banner about-mci-hero">
-    <div class="container py-5">
+    <div class="container  py-5">
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center">
                 <h1 class="display-4 text-white fw-bold mb-3">Cook Islands Agents</h1>
@@ -34,13 +214,13 @@ $page_title = 'Blank'; // Set the page title
  </section>
 
  <section class="islands-the-team mt-5">
-    <div class="container-fluid">
+    <div class="container mx-auto">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12 col-lg-6">
                 <div class="islands-team-item">
                 <div class="row">
                     <div class="col-4 team-img">
-                        <img src="../img/deputy-registers/duthie-lidgard-1.jpg" alt="" class="img-fluid">
+                        <img src="./img/duthie-lidgard-1.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-8">
                         <h3 class="fs-5 team-res">NEW ZEALAND</h3>
@@ -72,11 +252,11 @@ $page_title = 'Blank'; // Set the page title
                 </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-12 col-lg-6">
                 <div class="islands-team-item">
                 <div class="row">
                     <div class="col-4 team-img">
-                        <img src="../img/deputy-registers/peter-redford.jpg" alt="" class="img-fluid">
+                        <img src="./img/peter-redford.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-8">
                         <h3 class="fs-5 team-res">AUSTRALIA</h3>
@@ -108,11 +288,11 @@ $page_title = 'Blank'; // Set the page title
                 </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-4">
+            <div class="col-md-12 col-lg-6 mt-4">
                 <div class="islands-team-item">
                 <div class="row">
                     <div class="col-4 team-img">
-                        <img src="../img/deputy-registers/james-humphreys.jpg" alt="" class="img-fluid">
+                        <img src="./img/james-humphreys.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-8">
                         <h3 class="fs-5 team-res">AUSTRALIA</h3>
@@ -137,11 +317,11 @@ $page_title = 'Blank'; // Set the page title
                 </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-4">
+            <div class="col-md-12 col-lg-6 mt-4">
                 <div class="islands-team-item">
                 <div class="row">
                     <div class="col-4 team-img">
-                        <img src="../img/deputy-registers/frank-tourneur.jpg" alt="" class="img-fluid">
+                        <img src="./img/frank-tourneur.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-8">
                         <h3 class="fs-5 team-res">PHILIPPINES</h3>
@@ -169,11 +349,11 @@ $page_title = 'Blank'; // Set the page title
                 </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-4">
+            <div class="col-md-12 col-lg-6 mt-4">
                 <div class="islands-team-item">
                 <div class="row">
                     <div class="col-4 team-img">
-                        <img src="../img/deputy-registers/jenserik-olsen.jpg" alt="" class="img-fluid">
+                        <img src="./img/jenserik-olsen.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-8">
                         <h3 class="fs-5 team-res">CHINA </h3>
@@ -202,11 +382,11 @@ $page_title = 'Blank'; // Set the page title
                 </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-4">
+            <div class="col-md-12 col-lg-6 mt-4">
                 <div class="islands-team-item">
                 <div class="row">
                     <div class="col-4 team-img">
-                        <img src="../img/deputy-registers/msayuki-kawase.jpg" alt="" class="img-fluid">
+                        <img src="./img/msayuki-kawase.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-8">
                         <h3 class="fs-5 team-res">JAPAN</h3>
@@ -235,11 +415,11 @@ $page_title = 'Blank'; // Set the page title
                 </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-4">
+            <div class="col-md-12 col-lg-6 mt-4">
                 <div class="islands-team-item">
                 <div class="row">
                     <div class="col-4 team-img">
-                        <img src="../img/deputy-registers/dongsob-kim.jpg" alt="" class="img-fluid">
+                        <img src="./img/dongsob-kim.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-8">
                         <h3 class="fs-5 team-res">SOUTH KOREA</h3>
@@ -265,11 +445,11 @@ $page_title = 'Blank'; // Set the page title
                 </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-4">
+            <div class="col-md-12 col-lg-6 mt-4">
                 <div class="islands-team-item">
                 <div class="row">
                     <div class="col-4 team-img">
-                        <img src="../img/deputy-registers/faust-pinto.jpg" alt="" class="img-fluid">
+                        <img src="./img/faust-pinto.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-8">
                         <h3 class="fs-5 team-res">INDIA</h3>
@@ -301,11 +481,11 @@ $page_title = 'Blank'; // Set the page title
                 </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-4">
+            <div class="col-md-12 col-lg-6 mt-4">
                 <div class="islands-team-item">
                 <div class="row">
                     <div class="col-4 team-img">
-                        <img src="../img/deputy-registers/hamada-halomou.jpg" alt="" class="img-fluid">
+                        <img src="./img/hamada-halomou.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-8">
                         <h3 class="fs-5 team-res">UNITED ARAB EMIRATES</h3>
@@ -334,11 +514,11 @@ $page_title = 'Blank'; // Set the page title
                 </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-4">
+            <div class="col-md-12 col-lg-6 mt-4">
                 <div class="islands-team-item">
                 <div class="row">
                     <div class="col-4 team-img">
-                        <img src="../img/deputy-registers/grant-hobart.jpg" alt="" class="img-fluid">
+                        <img src="./img/grant-hobart.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-8">
                         <h3 class="fs-5 team-res">MONACO & ITALY </h3>
@@ -363,11 +543,11 @@ $page_title = 'Blank'; // Set the page title
                 </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-4">
+            <div class="col-md-12 col-lg-6 mt-4">
                 <div class="islands-team-item">
                 <div class="row">
                     <div class="col-4 team-img">
-                        <img src="../img/deputy-registers/levent-baktir.jpg" alt="" class="img-fluid">
+                        <img src="./img/levent-baktir.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-8">
                         <h3 class="fs-5 team-res">TURKEY </h3>
@@ -399,11 +579,11 @@ $page_title = 'Blank'; // Set the page title
                 </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-4">
+            <div class="col-md-12 col-lg-6 mt-4">
                 <div class="islands-team-item">
                 <div class="row">
                     <div class="col-4 team-img">
-                        <img src="../img/deputy-registers/rahmi-aykac.jpg" alt="" class="img-fluid">
+                        <img src="./img/rahmi-aykac.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-8">
                         <h3 class="fs-5 team-res">TURKEY </h3>
@@ -435,11 +615,11 @@ $page_title = 'Blank'; // Set the page title
                 </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-4">
+            <div class="col-md-12 col-lg-6 mt-4">
                 <div class="islands-team-item">
                 <div class="row">
                     <div class="col-4 team-img">
-                        <img src="../img/deputy-registers/mary-tsoi.jpg" alt="" class="img-fluid">
+                        <img src="./img/mary-tsoi.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-8">
                         <h3 class="fs-5 team-res">MONACO</h3>
@@ -468,11 +648,11 @@ $page_title = 'Blank'; // Set the page title
                 </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-4">
+            <div class="col-md-12 col-lg-6 mt-4">
                 <div class="islands-team-item">
                 <div class="row">
                     <div class="col-4 team-img">
-                        <img src="../img/deputy-registers/anton-dyachkov.jpg" alt="" class="img-fluid">
+                        <img src="./img/anton-dyachkov.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-8">
                         <h3 class="fs-5 team-res">RUSSIA </h3>
@@ -498,11 +678,11 @@ $page_title = 'Blank'; // Set the page title
                 </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-4">
+            <div class="col-md-12 col-lg-6 mt-4">
                 <div class="islands-team-item">
                 <div class="row">
                     <div class="col-4 team-img">
-                        <img src="../img/deputy-registers/victoria-getman.jpg" alt="" class="img-fluid">
+                        <img src="./img/victoria-getman.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-8">
                         <h3 class="fs-5 team-res">CYPRUS </h3>
@@ -531,11 +711,11 @@ $page_title = 'Blank'; // Set the page title
                 </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-4">
+            <div class="col-md-12 col-lg-6 mt-4">
                 <div class="islands-team-item">
                 <div class="row">
                     <div class="col-4 team-img">
-                        <img src="../img/deputy-registers/koula-louca.jpg" alt="" class="img-fluid">
+                        <img src="./img/koula-louca.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-8">
                         <h3 class="fs-5 team-res">CYPRUS </h3>
@@ -561,11 +741,11 @@ $page_title = 'Blank'; // Set the page title
                 </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-4">
+            <div class="col-md-12 col-lg-6 mt-4">
                 <div class="islands-team-item">
                 <div class="row">
                     <div class="col-4 team-img">
-                        <img src="../img/deputy-registers/gary-miller.jpg" alt="" class="img-fluid">
+                        <img src="./img/gary-miller.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-8">
                         <h3 class="fs-5 team-res">SPAIN </h3>
@@ -594,11 +774,11 @@ $page_title = 'Blank'; // Set the page title
                 </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-4">
+            <div class="col-md-12 col-lg-6 mt-4">
                 <div class="islands-team-item">
                 <div class="row">
                     <div class="col-4 team-img">
-                        <img src="../img/deputy-registers/luisperez-salamero.jpg" alt="" class="img-fluid">
+                        <img src="./img/luisperez-salamero.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-8">
                         <h3 class="fs-5 team-res">PANAMA </h3>
@@ -620,11 +800,11 @@ $page_title = 'Blank'; // Set the page title
                 </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-4">
+            <div class="col-md-12 col-lg-6 mt-4">
                 <div class="islands-team-item">
                 <div class="row">
                     <div class="col-4 team-img">
-                        <img src="../img/deputy-registers/diego-corrado.jpg" alt="" class="img-fluid">
+                        <img src="./img/diego-corrado.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-8">
                         <h3 class="fs-5 team-res">URUGUAY </h3>
@@ -653,11 +833,11 @@ $page_title = 'Blank'; // Set the page title
                 </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-4">
+            <div class="col-md-12 col-lg-6 mt-4">
                 <div class="islands-team-item">
                 <div class="row">
                     <div class="col-4 team-img">
-                        <img src="../img/deputy-registers/paul-coxon.jpg" alt="" class="img-fluid">
+                        <img src="./img/paul-coxon.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-8">
                         <h3 class="fs-5 team-res">SOUTH AFRICA </h3>
@@ -686,11 +866,11 @@ $page_title = 'Blank'; // Set the page title
                 </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-4">
+            <div class="col-md-12 col-lg-6 mt-4">
                 <div class="islands-team-item">
                 <div class="row">
                     <div class="col-4 team-img">
-                        <img src="../img/deputy-registers/hilda-loe.jpg" alt="" class="img-fluid">
+                        <img src="./img/hilda-loe.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-8">
                         <h3 class="fs-5 team-res">SINGAPORE</h3>
@@ -719,11 +899,11 @@ $page_title = 'Blank'; // Set the page title
                 </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-4">
+            <div class="col-md-12 col-lg-6 mt-4">
                 <div class="islands-team-item">
                 <div class="row">
                     <div class="col-4 team-img">
-                        <img src="../img/deputy-registers/andriy-petrenko.jpg" alt="" class="img-fluid">
+                        <img src="./img/andriy-petrenko.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-8">
                         <h3 class="fs-5 team-res">UKRAINE</h3>
@@ -755,11 +935,11 @@ $page_title = 'Blank'; // Set the page title
                 </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-4">
+            <div class="col-md-12 col-lg-6 mt-4">
                 <div class="islands-team-item">
                 <div class="row">
                     <div class="col-4 team-img">
-                        <img src="../img/deputy-registers/maxwellapaiau-cumming.jpg" alt="" class="img-fluid">
+                        <img src="./img/maxwellapaiau-cumming.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-8">
                         <h3 class="fs-5 team-res">COOK ISLANDS</h3>
@@ -791,11 +971,11 @@ $page_title = 'Blank'; // Set the page title
                 </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-4">
+            <div class="col-md-12 col-lg-6 mt-4">
                 <div class="islands-team-item">
                 <div class="row">
                     <div class="col-4 team-img">
-                        <img src="../img/deputy-registers/szabina-dinya.jpg" alt="" class="img-fluid">
+                        <img src="./img/szabina-dinya.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-8">
                         <h3 class="fs-5 team-res">ITALY</h3>
@@ -820,11 +1000,11 @@ $page_title = 'Blank'; // Set the page title
                 </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-4">
+            <div class="col-md-12 col-lg-6 mt-4">
                 <div class="islands-team-item">
                 <div class="row">
                     <div class="col-4 team-img">
-                        <img src="../img/deputy-registers/daria-fedorenko.jpg" alt="" class="img-fluid">
+                        <img src="./img/daria-fedorenko.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-8">
                         <h3 class="fs-5 team-res">DENMARK</h3>

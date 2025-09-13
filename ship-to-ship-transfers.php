@@ -146,64 +146,89 @@ $page_title = 'Blank'; // Set the page title
 <div class="container-fluid">
     <div class="container">
         <div class="row align-items-center mb-4">
-            <!-- Left Title -->
-            <div class="col-md-8 choose_us_title">
-                <h2 class="mb-0">Ship to Ship Transfers</h2>
-            </div>
-            <!-- Right Title -->
-            <div class="col-md-4 text-start mt-3 mt-md-0 ps-4 popular_title">
-                <h2 class="mb-0">Popular Services</h2>
-            </div>
+
+
         </div>
 
         <div class="row choose_us">
-            <div class="col-md-8 bg_color">
-            <div class="row p-2">
+            <div class="col-md-12 col-lg-8">
+                            <!-- Left Title -->
+            <div class="text-start mt-3 mt-md-0 ps-4 popular_title">
+                <h2 class="mb-5">Ship to Ship Transfers</h2>
+            </div>
+            <div class="row p-2 bg_color">
             <div class="col-md-12 py-3">
                 <div class="row">
                     <div class="col-md-12">
-                        <p class="text-p">The Cook Islands has a modern suite of Maritime Legislation which is designed to protect the interests of ship owners, Mortgagees, and Charterers. It also makes it simple for the Administration to keep up to date with changes to International Maritime conventions and to ensure that ships flying the Cook Islands flag are in compliance.</p>
+                        <p class="text-p">For vessels carrying out ship-to-ship (STS) transfers involving the transfer of oil, chemicals, and liquefied gas by sea-going tankers, either underway or with one ship moored alongside another must comply with the provisions of</p>
+<ul>
+    <li>MARPOL Annex I Chapter 8</li>
+    <li>The IMO Manual on Oil Pollution, Section I, Prevention, 2011 Edition (IMO Manual)</li>
+    <li>The OCIMF Ship to Ship Transfer Guide for Petroleum, Chemicals and Liquefied Gases, First Edition, 2013 (the Guide)</li>
+</ul>
+<p>The Master of tanker vessels carrying oil shall provide advanced notification to Maritime Cook Islands (in accordance with guidance contained in IMO Res. A.1192(33)) and the Coastal State with in 48 hours of the ship-to-ship transfer in accordance with MAPROL Annex I chapter 8 reg 42 and Paragraphs No. 2.2.1 of the Guide and Paragraph No. 6.2.3.1 of the IMO Manual.</p>
 
+<p class="text-p">For further guidance please refer to <a href="./pdf/MCI-Circular-297-2024-STS-Transfer.pdf">MCI Circular 297/2024</a></p>
+<a href="./pdf/MCI_Ship_to_Ship_Transfer_Advanced_Notification_Form.pdf">Download Maritime Cook Islands STS Transfer Advanced Notification Form</a>
+<p>For further information please contact</p>
+<a href="">monitoring@maritimecookislands.com</a>
                     </div>
                 </div>
             </div>
             </div>
             </div>
-            <div class="col-md-4 ps-4">
-        <div class="popular-services position-relative">
-            <img src="../img/popular-ser-1.jpg" alt="" class="image-fluid w-100">
-            
-            <div class="popular-ser-desc position-absolute">
-                <h3 class="text-white fs-4">Bunker/Wrecks/CLC Services</h3>
-            </div>
+            <div class="col-md-4 ps-4 d-none d-lg-block">
+                <!-- Right Title -->
+                <div class=" text-start mt-3 mt-md-0 ps-4 popular_title">
+                    <h2 class="mb-5">Popular Services</h2>
+                </div>
+                <div class="popular-services position-relative">
+                    <img src="./img/popular services img 1.jpg" alt="" class="image-fluid w-100">
 
-            <div class="content_hover position-absolute">
-                <a href="">
-                    <h3 class="text-white fs-4">Bunker/Wrecks/CLC Services</h3>
-                </a>
-                <p class="text-p">
-                    There is no legal or other impediment to any P&I Club / Insurer 
-                    offering cover to Cook Islands flagged vessels.
-                </p>
-            </div>
-        </div>
-        <div class="popular-services position-relative mt-5">
-            <img src="../img/popular-ser-1.jpg" alt="" class="image-fluid w-100">
-            
-            <div class="popular-ser-desc position-absolute">
-                <h3 class="text-white fs-4">Bunker/Wrecks/CLC Services</h3>
-            </div>
+                    <div class="popular-ser-desc position-absolute">
+                        <h3 class="text-white fs-4">Bunker/Wrecks/CLC Services</h3>
+                    </div>
 
-            <div class="content_hover position-absolute">
-                <a href="">
-                    <h3 class="text-white fs-4">Bunker/Wrecks/CLC Services</h3>
-                </a>
-                <p class="text-p">
-                    There is no legal or other impediment to any P&I Club / Insurer 
-                    offering cover to Cook Islands flagged vessels.
-                </p>
-            </div>
-        </div>
+                    <div class="content_hover position-absolute">
+                        <a href="">
+                            <h3 class="text-white fs-4">Bunker/Wrecks/CLC Services</h3>
+                        </a>
+                        <p class="text-p">
+                            There is no legal or other impediment to any P&I Club / Insurer
+                            offering cover to Cook Islands flagged vessels.
+                        </p>
+                    </div>
+                                        <div class="content_hover position-absolute">
+                        <a href=""> <span class="ms-5 hover-icon-position"><i class="fa-solid fa-arrow-right"></i></a>
+
+                        <a href="">
+                            <h3 class="text-white fs-4">Bunker/Wrecks/CLC Services</h3>
+                        </a>
+                        <p class="text-p">
+                        There is no legal or other impediment to any P&I Club / Insurer offering cover to Cook Islands flagged vessels.
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="popular-services position-relative mt-5">
+                    <img src="./img/popular services img 2.jpg" alt="" class="image-fluid w-100">
+                    <div class="popular-ser-desc position-absolute">
+                        <h3 class="text-white fs-4">Merchant Ships</h3>
+                    </div>
+                    <div class="content_hover position-absolute">
+                        <a href=""> <span class="ms-5 hover-icon-position"><i class="fa-solid fa-arrow-right"></i></a>
+
+                        <a href="">
+                            <h3 class="text-white fs-4">Merchant Ships</h3>
+                        </a>
+                        <p class="text-p">
+                            Maritime Cook Islands Administrator of the Cook Islands ships registry, operates as an open registry with its main office in Rarotonga, Cook Islands, with additional offices in Italy and Monaco.
+                        </p>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     </div>

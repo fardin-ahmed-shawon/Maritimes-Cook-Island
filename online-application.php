@@ -5,7 +5,7 @@ $page_title = 'Blank'; // Set the page title
 <?php require 'header.php'; ?>
 <style>
     .about-mci-hero {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/slider5.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/slider3.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -185,9 +185,9 @@ $page_title = 'Blank'; // Set the page title
 <!-- Hero Banner Start -->
 <div class="container-fluid bg-primary py-5 mb-5 hero-banner about-mci-hero">
     <div class="container py-5">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 text-center">
-                <h1 class="display-4 text-white fw-bold mb-3">Online Application</h1>
+        <div class="row ">
+            <div class="col-lg-8 ">
+                <h1 class="display-4 text-white fw-bold mb-3 py-5">Online Application</h1>
             </div>
         </div>
     </div>
@@ -202,21 +202,22 @@ $page_title = 'Blank'; // Set the page title
         </div>
 
         <div class="row choose_us">
-            <div class="col-md-8 bg_color">
-                <div class="row p-2">
+            <div class="col-md-8 mt-4">
+                <!-- Left Title -->
+                <div class=" choose_us_title">
+                    <h2 class="mb-5">Online Registration</h2>
+                </div>
+                <div class="row px-2 py-5 bg_color">
                     <div class="col-md-12 py-3">
                         <div class="row">
-                            <!-- Left Title -->
-                            <div class="col-md-8 choose_us_title">
-                                <h2 class="mb-3">Online Registration</h2>
-                            </div>
+
                             <div class="col-md-12">
-                                <div class="program-details">
+                                <div class="program-details py-2">
                                     <p>
                                         <strong>Step 1:</strong>
                                         Please download the
                                         <strong>Cook Islands Declaration For Vessel Registration Form</strong>
-                                        <a href="">here</a>
+                                        <a href="./pdf/Cook-Islands-Declaration-For-Vessel-Registration-v35.pdf">here</a>
                                     </p>
                                     <p>
                                         <strong>Step 2:</strong>
@@ -227,7 +228,7 @@ $page_title = 'Blank'; // Set the page title
                                     <p>
                                         <strong>Step 3:</strong>
                                         Complete the Online Application Form
-                                        <a href="">click here</a>
+                                        <a href="https://s2.upvise.com/form.htm?db=213158&tid=A570E832EB3ADA61CF0CBA7D57F5AC">click here</a>
                                     </p>
                                 </div>
                             </div>
@@ -237,11 +238,11 @@ $page_title = 'Blank'; // Set the page title
             </div>
             <div class="col-md-4 ps-4 d-none d-lg-block">
                 \ <!-- Right Title -->
-                <div class="text-start mb-3 mt-3 mt-md-0 ps-4 popular_title">
+                <div class="text-start mb-5  mt-md-0 ps-4 popular_title">
                     <h2 class="mb-0">Popular Services</h2>
                 </div>
                 <div class="popular-services position-relative">
-                    <img src="./img/popular services img 2.jpg" alt="" class="image-fluid w-100">
+                    <img src="./img/popular services img 1.jpg" alt="" class="image-fluid w-100">
 
                     <div class="popular-ser-desc position-absolute">
                         <h3 class="text-white fs-4">Merchant Ships</h3>

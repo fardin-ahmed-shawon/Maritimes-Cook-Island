@@ -4,7 +4,7 @@ $page_title = 'Approved Fuel Suppliers'; // Set the page title
 ?>
 <?php require 'header.php'; ?>
 <style>
-a i{
+.hvoer-icon-position{
     color: white;
   position: absolute;
   top: 20px;
@@ -75,7 +75,7 @@ a i{
             </div>
             </div>
             </div>
-            <div class="col-md-4 ps-4">
+            <div class="col-md-4 ps-4 d-none d-lg-block">
         <div class="popular-services position-relative">
             <img src="./img/popular services img 2.jpg" alt="" class="image-fluid w-100">
             
@@ -85,7 +85,7 @@ a i{
 
         
             <div class="content_hover position-absolute">
-                    <a href=""> <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href=""> <i class="fa-solid fa-arrow-right hvoer-icon-position"></i></a>
                 <a href="">
               
                     <h3 class="text-white fs-4">Merchant Ships </h3>
@@ -104,7 +104,7 @@ a i{
 
             <div class="content_hover position-absolute">
                 <a href="">
-                    <h3 class="text-white fs-4">Bunker/Wrecks/CLC Services <span class="ms-5"><i class="fa-solid fa-arrow-right"></i></span></h3>
+                    <h3 class="text-white fs-4">Bunker/Wrecks/CLC Services <span class="ms-5"><i class="fa-solid fa-arrow-right hvoer-icon-position"></i></span></h3>
                 </a>
                 <p class="text-p">
                     There is no legal or other impediment to any P&I Club / Insurer 

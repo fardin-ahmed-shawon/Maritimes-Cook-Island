@@ -136,7 +136,7 @@ $page_title = 'Blank'; // Set the page title
             color: #fff !important;
             background-color: #22255B !important;
         } */
-.hover-icon-position{
+    .hover-icon-position {
         color: white;
         position: absolute;
         top: 16px;
@@ -194,7 +194,7 @@ $page_title = 'Blank'; // Set the page title
         background-color: #F7F7F7 !important;
     }
 
-   .legislation-icon {
+    .legislation-icon {
         width: 30px;
     }
 
@@ -229,22 +229,24 @@ $page_title = 'Blank'; // Set the page title
 
         <div class="row choose_us">
 
-            <div class="col-md-12 bg_color">
-                <div class="row p-2">
+            <div class="col-md-12 ">
 
-                    <div class="col-md-8 py-3">
-                        <div class="row">
-                            <!-- Left Title -->
-                            <div class="col-md-8 choose_us_title">
-                                <h2 class="pb-1 mb-">Cook Islands Maritime Legislation</h2>
-                            </div>
-                            <div class="col-md-12">
+                <div class="row p-2 ">
+
+                    <div class="col-md-8 py-3 ">
+                                        <!-- Left Title -->
+                <div class=" choose_us_title">
+                    <h2 class="pb-1 mb-5">Cook Islands Maritime Legislation</h2>
+                </div>
+                        <div class="row bg_color">
+
+                            <div class="col-md-12 p-5">
                                 <p class="text-p mt-2">The Cook Islands has a modern suite of Maritime Legislation which is designed to protect the interests of ship owners, Mortgagees, and Charterers. It also makes it simple for the Administration to keep up to date with changes to International Maritime conventions and to ensure that ships flying the Cook Islands flag are in compliance.</p>
                                 <!-- files  -->
                                 <div class="accordion accordion-flush" id="accordionFlushExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header ">
-                                            <button class="accordion-button collapsed ms-3"
+                                            <button class="accordion-button collapsed "
                                                 type="button"
                                                 data-bs-toggle="collapse"
                                                 data-bs-target="#flush-collapseOne"
@@ -262,7 +264,7 @@ $page_title = 'Blank'; // Set the page title
                                                 <div class="accordion accordion-flush" id="innerAccordionOne">
                                                     <div class="accordion-item">
                                                         <h2 class="accordion-header">
-                                                            <button class="accordion-button collapsed ms-3"
+                                                            <button class="accordion-button collapsed "
                                                                 type="button"
                                                                 data-bs-toggle="collapse"
                                                                 data-bs-target="#flush-collapseTwo"
@@ -310,7 +312,7 @@ $page_title = 'Blank'; // Set the page title
                                                 <div class="accordion accordion-flush" id="innerAccordionTwo">
                                                     <div class="accordion-item">
                                                         <h2 class="accordion-header">
-                                                            <button class="accordion-button collapsed ms-3"
+                                                            <button class="accordion-button collapsed "
                                                                 type="button"
                                                                 data-bs-toggle="collapse"
                                                                 data-bs-target="#flush-collapseRegulations"
@@ -346,7 +348,7 @@ $page_title = 'Blank'; // Set the page title
                                                 <div class="accordion accordion-flush" id="innerAccordionThree">
                                                     <div class="accordion-item">
                                                         <h2 class="accordion-header">
-                                                            <button class="accordion-button collapsed ms-3"
+                                                            <button class="accordion-button collapsed "
                                                                 type="button"
                                                                 data-bs-toggle="collapse"
                                                                 data-bs-target="#flush-collapseConventions"
@@ -400,7 +402,7 @@ $page_title = 'Blank'; // Set the page title
                                                 <div class="accordion accordion-flush" id="innerAccordionFour">
                                                     <div class="accordion-item">
                                                         <h2 class="accordion-header">
-                                                            <button class="accordion-button collapsed ms-3"
+                                                            <button class="accordion-button collapsed "
                                                                 type="button"
                                                                 data-bs-toggle="collapse"
                                                                 data-bs-target="#flush-collapseCodes"
@@ -507,7 +509,7 @@ $page_title = 'Blank'; // Set the page title
                                                                     <p class="text-bg p-2">
                                                                         Maritime bunkers rules 2014</p>
                                                                     <a href="./pdf/Maritime-bunkers-rules-2014.pdf"></a>
-                                                                       <img src="./img/pdf icon.png" alt="" class="legislation-icon">
+                                                                    <img src="./img/pdf icon.png" alt="" class="legislation-icon">
                                                                 </div>
                                                                 <!-- Maritime mlc rules 2014 -->
                                                                 <div class="d-flex justify-content-between border border-top-0 border-start-0 border-end-0">
@@ -607,10 +609,10 @@ $page_title = 'Blank'; // Set the page title
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 ps-4">
+                    <div class="col-md-4 ps-4 d-none d-lg-block">
                         <!-- Right Title -->
                         <div class=" text-start mt-3 mt-md-0 ps-4 popular_title">
-                            <h2 class="mb-3">Popular Services</h2>
+                            <h2 class="mb-5">Popular Services</h2>
                         </div>
                         <div class="popular-services position-relative">
                             <img src="./img/popular services img 2.jpg" alt="" class="image-fluid w-100">

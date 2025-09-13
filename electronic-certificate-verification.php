@@ -5,23 +5,27 @@ $page_title = 'Blank'; // Set the page title
 <?php require 'header.php'; ?>
 <style>
     .about-mci-hero {
-        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/slider5.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/slider5.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
-    .text-p{
+
+    .text-p {
         font-size: 14px;
         font-weight: 300;
         line-height: 25px;
         margin-top: 15px;
     }
-     .bg-primary {
-            background-color: #22255B !important;
-        }
-    .bg_color{
+
+    .bg-primary {
+        background-color: #22255B !important;
+    }
+
+    .bg_color {
         background-color: #F7F7F7;
     }
+
     .popular-services {
         width: 300px;
         position: relative;
@@ -34,8 +38,14 @@ $page_title = 'Blank'; // Set the page title
         height: 100%;
         position: absolute;
     }
-    .popular-ser-desc {bottom: 15px;left: 25px;}
-    .choose_us_title h2::before, .popular_title h2::before {
+
+    .popular-ser-desc {
+        bottom: 15px;
+        left: 25px;
+    }
+
+    .choose_us_title h2::before,
+    .popular_title h2::before {
         content: "";
         position: absolute;
         width: 55px;
@@ -45,48 +55,53 @@ $page_title = 'Blank'; // Set the page title
         top: 60px;
     }
 
-    .choose_us_title, .popular_title {
+    .choose_us_title,
+    .popular_title {
         position: relative;
     }
+
     .choose_us {
         margin-top: 70px;
     }
+
     .content_hover p {
         color: #D9D9E0;
         font-weight: 300;
         font-size: 16px;
     }
-        .popular-services {
+
+    .popular-services {
         overflow: hidden;
         cursor: pointer;
         position: relative;
-        }
+    }
 
-        .popular-services img {
+    .popular-services img {
         transition: 0.3s ease;
         display: block;
         width: 100%;
-        }
+    }
 
-        .popular-ser-desc {
+    .popular-ser-desc {
         position: absolute;
-        bottom: 15px;  
+        bottom: 15px;
         left: 20px;
         z-index: 1;
-        }
+    }
 
-        .popular-ser-desc h3 {
+    .popular-ser-desc h3 {
         margin: 0;
-        }
+    }
 
-        .content_hover {
+    .content_hover {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
         padding: 20px 20px 0px 20px;
-        background: #181A40; /* overlay bg */
+        background: #181A40;
+        /* overlay bg */
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -95,15 +110,15 @@ $page_title = 'Blank'; // Set the page title
         opacity: 0;
         visibility: hidden;
         transition: 0.3s ease;
-        z-index: 2; 
-        }
+        z-index: 2;
+    }
 
-        .popular-services:hover .content_hover {
+    .popular-services:hover .content_hover {
         opacity: 1;
         visibility: visible;
-        }
-        
-        .hover-icon-position{
+    }
+
+    .hover-icon-position {
         color: white;
         position: absolute;
         top: 16px;
@@ -112,10 +127,11 @@ $page_title = 'Blank'; // Set the page title
         font-size: 40px;
     }
 
-       .legislation-icon {
+    .legislation-icon {
         width: 30px;
     }
-        /* .navbar-nav, .navbar {
+
+    /* .navbar-nav, .navbar {
             background-color: #22255B !important;
         }
         .navbar .navbar-nav .nav-link {
@@ -127,12 +143,19 @@ $page_title = 'Blank'; // Set the page title
             background-color: #22255B !important;
         } */
 
+    .verification-process li h6 {
+        font-size: 16px;
+    }
 
-        @media only screen and (max-width: 991px) {
-            .logo {
-                width: 160px;
-            }
+    .verification-process li p {
+        font-size: 16px;
+    }
+
+    @media only screen and (max-width: 991px) {
+        .logo {
+            width: 160px;
         }
+    }
 </style>
 <!--=======================================================================-->
 <!------------------------ Your Content Start From Here --------------------->
@@ -153,149 +176,199 @@ $page_title = 'Blank'; // Set the page title
 <div class="container-fluid">
     <div class="container">
         <div class="row align-items-center mb-4">
-            <!-- Left Title -->
-            <div class="col-md-8 choose_us_title">
-                <h2 class="mb-0">Electronic Certificate Verification</h2>
-            </div>
-            <!-- Right Title -->
-            <div class="col-md-4 text-start mt-3 mt-md-0 ps-4 popular_title">
-                <h2 class="mb-0">Popular Services</h2>
-            </div>
+
+
         </div>
 
         <div class="row choose_us">
-            <div class="col-md-8 bg_color">
-            <div class="row p-2">
-            <div class="col-md-12 py-3">
-                <div class="row">
-                    <div class="col-md-12">
-                     <div class="intro">
-                    <p>
-                        At Maritime Cook Islands, we are committed to embracing modern solutions that enhance efficiency, security, and accessibility for our valued seafarers, shipowners, and operators. As part of this commitment, we have transitioned to issuing internationally recognized electronic certificates (e-certificates).
-                    </p>
-                    <p>This page provides you with essential information about our e-certificates, how they work, and the current methods for verification.</p>
-                    <p>
-                        <strong>What are Electronic Certificates?</strong>
-                        Electronic certificates are official documents issued in a digital format rather than traditional paper. They serve the same purpose as their paper counterparts, verifying qualifications, vessel status, and compliance with maritime regulations. Our e-certificates are designed to meet the standards set forth by the International Maritime Organization (IMO).
-                    </p> 
-                    <br>
-                    <p>
-                        <strong>Benefits of E-Certificates:</strong>
-                    </p>
-                    <ul>
-                        <li>
-                            <strong>Instant Access:</strong>
-                             Receive and access your certificates anytime, anywhere in the world.
-                        </li>
-                        <li>
-                            <strong>Enhanced Security:</strong>
-                            Digital features reduce the risk of fraud and tampering.
-                        </li>
-                        <li>
-                            <strong>Environmentally Friendly:</strong>
-                             Reduces paper consumption and supports sustainable practices.
-                        </li>
-                        <li>
-                            <strong>Streamlined Processes:</strong>
-                             Simplifies the application, issuance, and verification processes for authorities.
-                        </li>
-                        <li>
-                            <strong>Cost-Effective:</strong>
-                             Lowers costs associated with printing, handling, and postage.
-                        </li>
-                    </ul>
-                    <br>
-                    <p>
-                        <strong>How Our E-Certificates Work: QR Code Verification</strong>
-                    </p>
-                    <p>
-                        Each electronic certificate issued by Maritime Cook Islands is equipped with a secure <strong>Quick Response (QR) Code.</strong>  This QR code is the primary method for instant verification of the certificate’s authenticity.
-                    </p>
-                    <p>
-                        When verifying certificates, <b> always confirm the URL in your browser’s address bar. </b>
-                             Our official verification portal is located at <a href="">s2.upvise.com</a>Please be advised that any deviation, no matter how slight, indicates an unofficial site.
-                         <br>
-                         Examples of Unofficial URLs:   
-                    </p>
+            <div class="col-md-12 col-lg-8 ">
+                <!-- Left Title -->
+                <div class="col-md-8 choose_us_title">
+                    <h2 class="mb-5">Electronic Certificate Verification</h2>
+                </div>
+                <div class="row p-2 bg_color">
+                    <div class="col-md-12 py-3">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="intro">
+                                    <p>
+                                        At Maritime Cook Islands, we are committed to embracing modern solutions that enhance efficiency, security, and accessibility for our valued seafarers, shipowners, and operators. As part of this commitment, we have transitioned to issuing internationally recognized electronic certificates (e-certificates).
+                                    </p>
+                                    <p>This page provides you with essential information about our e-certificates, how they work, and the current methods for verification.</p>
+                                    <p>
+                                        <strong>What are Electronic Certificates?</strong>
+                                        Electronic certificates are official documents issued in a digital format rather than traditional paper. They serve the same purpose as their paper counterparts, verifying qualifications, vessel status, and compliance with maritime regulations. Our e-certificates are designed to meet the standards set forth by the International Maritime Organization (IMO).
+                                    </p>
+                                    <br>
+                                    <p>
+                                        <strong>Benefits of E-Certificates:</strong>
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <strong>Instant Access:</strong>
+                                            Receive and access your certificates anytime, anywhere in the world.
+                                        </li>
+                                        <li>
+                                            <strong>Enhanced Security:</strong>
+                                            Digital features reduce the risk of fraud and tampering.
+                                        </li>
+                                        <li>
+                                            <strong>Environmentally Friendly:</strong>
+                                            Reduces paper consumption and supports sustainable practices.
+                                        </li>
+                                        <li>
+                                            <strong>Streamlined Processes:</strong>
+                                            Simplifies the application, issuance, and verification processes for authorities.
+                                        </li>
+                                        <li>
+                                            <strong>Cost-Effective:</strong>
+                                            Lowers costs associated with printing, handling, and postage.
+                                        </li>
+                                    </ul>
+                                    <br>
+                                    <p>
+                                        <strong>How Our E-Certificates Work: QR Code Verification</strong>
+                                    </p>
+                                    <p>
+                                        Each electronic certificate issued by Maritime Cook Islands is equipped with a secure <strong>Quick Response (QR) Code.</strong> This QR code is the primary method for instant verification of the certificate’s authenticity.
+                                    </p>
+                                    <p>
+                                        When verifying certificates, <b> always confirm the URL in your browser’s address bar. </b>
+                                        Our official verification portal is located at <a href="">s2.upvise.com</a>Please be advised that any deviation, no matter how slight, indicates an unofficial site.
+                                        <br>
+                                        Examples of Unofficial URLs:
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <a href="">s2.upvise.com</a>
+                                        </li>
+                                        <li>
+                                            <a href="">s2.upvise.com</a>
+                                        </li>
+                                        <li>
+                                            <a href="">s2.upvise.com</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-group-numbered verification-process">
+                                        <li class="">
+                                            <strong>Locate the QR Code:</strong>
+                                            You will find a unique QR code printed directly on your electronic certificate.
+                                        </li>
+                                        <li>
+                                            <strong>Scan the QR Code:</strong>
+                                            Use a smartphone or tablet with a QR code scanning application. Most modern mobile devices have this capability built into their camera apps.
+                                        </li>
+                                        <li>
+                                            <strong>Access Certificate Information:</strong>
+                                            Upon scanning, the QR code will typically link you directly to a secure digital copy (PDF) of your certificate. This allows for immediate visual confirmation of the certificate’s details.
+                                        </li>
 
+                                    </ul>
+                                    <br>
+
+                                </div>
+<div>
+    <strong>What to Expect When You Scan:</strong>
+    <p>Currently, the QR code embedded in our certificates links directly to a PDF copy of the certificate itself. This provides an immediate way for Port State Control, employers, and other relevant authorities to view the certificate’s content and verify its appearance against officially issued Maritime Cook Islands documents.</p>
+</div>
+<div>
+    <strong>Ensuring Trust and Authenticity</strong>
+    <p>Maritime Cook Islands stands behind the validity of all officially issued electronic certificates. While our website verification portal is being finalized, the QR code system provides a reliable method for accessing and visually inspecting the certificate.</p>
+</div>
+<div>
+    <p>View our <a href="">circular</a> on the transition to electronic certificates</p>
+</div>
+<div class="fw-bold">
+    <p>If you have any concerns or require further clarification regarding the authenticity of a Maritime Cook Islands e-certificate, please do not hesitate to contact us directly.</p>
+</div>
+<ul>
+    <p>Contact for Verification SUpport</p>
+    <ul>
+        <li>
+            Email: <a href="">info@maritimecookislands.com</a>
+        </li>
+    </ul>
+</ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 ps-4 d-none d-lg-block">
+                <!-- Right Title -->
+                <div class="text-start mt-3 mt-md-0 ps-4 mb-5 popular_title">
+                    <h2 class="mb-0">Popular Services</h2>
+                </div>
+                <div class="popular-services position-relative">
+                    <img src="./img/popular services img 1.jpg" alt="" class="image-fluid w-100">
+
+                    <div class="popular-ser-desc position-absolute">
+
+                        <h3 class="text-white fs-4">Bunker/Wrecks/CLC Services</h3>
                     </div>
 
+                    <div class="content_hover position-absolute">
+                        <span class="icon pe-2"><i class="fa-solid fa-arrow-right hover-icon-position"></i></span>
+                        <a href="">
+                            <h3 class="text-white fs-4">Bunker/Wrecks/CLC Services</h3>
+                        </a>
+                        <p class="text-p">
+                            There is no legal or other impediment to any P&I Club / Insurer
+                            offering cover to Cook Islands flagged vessels.
+                        </p>
                     </div>
                 </div>
-            </div>
-            </div>
-            </div>
-            <div class="col-md-4 ps-4">
-<div class="popular-services position-relative">
-            <img src="./img/popular services img 1.jpg" alt="" class="image-fluid w-100">
-            
-            <div class="popular-ser-desc position-absolute">
-          
-                <h3 class="text-white fs-4">Bunker/Wrecks/CLC Services</h3>
-            </div>
 
-            <div class="content_hover position-absolute">
-                       <span class="icon pe-2"><i class="fa-solid fa-arrow-right hover-icon-position"></i></span>
-                <a href="">
-                    <h3 class="text-white fs-4">Bunker/Wrecks/CLC Services</h3>
-                </a>
-                <p class="text-p">
-                    There is no legal or other impediment to any P&I Club / Insurer 
-                    offering cover to Cook Islands flagged vessels.
-                </p>
-            </div>
-        </div>
+                <div class="popular-services position-relative mt-5">
+                    <img src="./img/popular services img 2.jpg" alt="" class="image-fluid w-100">
+                    <div class="popular-ser-desc position-absolute">
+                        <h3 class="text-white fs-4">Merchant Ships</h3>
+                    </div>
+                    <div class="content_hover position-absolute">
 
-            <div class="popular-services position-relative mt-5">
-                <img src="./img/popular services img 2.jpg" alt="" class="image-fluid w-100">
-                <div class="popular-ser-desc position-absolute">
-                    <h3 class="text-white fs-4">Merchant Ships</h3>
+                        <span class="icon pe-2"><i class="fa-solid fa-arrow-right hover-icon-position"></i></span>
+                        <a href="">
+                            <h3 class="text-white fs-4">Bunker/Wrecks/CLC Services</h3>
+                        </a>
+                        <p class="text-p">
+                            There is no legal or other impediment to any P&I Club / Insurer
+                            offering cover to Cook Islands flagged vessels.
+                        </p>
+                    </div>
                 </div>
-                            <div class="content_hover position-absolute">
-                           
-                       <span class="icon pe-2"><i class="fa-solid fa-arrow-right hover-icon-position"></i></span>
-                <a href="">
-                    <h3 class="text-white fs-4">Bunker/Wrecks/CLC Services</h3>
-                </a>
-                <p class="text-p">
-                    There is no legal or other impediment to any P&I Club / Insurer 
-                    offering cover to Cook Islands flagged vessels.
-                </p>
-            </div>
-             </div>
-                 <div class="popular-services position-relative mt-5">
-                <img src="./img/popular services img 3.jpg" alt="" class="image-fluid w-100">
-                <div class="popular-ser-desc position-absolute">
-                    <h3 class="text-white fs-4">Seafarer Training & Certification</h3>
+                <div class="popular-services position-relative mt-5">
+                    <img src="./img/popular services img 3.jpg" alt="" class="image-fluid w-100">
+                    <div class="popular-ser-desc position-absolute">
+                        <h3 class="text-white fs-4">Seafarer Training & Certification</h3>
+                    </div>
+                    <div class="content_hover position-absolute">
+                        <span class="icon pe-2"><i class="fa-solid fa-arrow-right hover-icon-position"></i></span>
+                        <a href="">
+                            <h3 class="text-white fs-4">Bunker/Wrecks/CLC Services</h3>
+                        </a>
+                        <p class="text-p">
+                            There is no legal or other impediment to any P&I Club / Insurer
+                            offering cover to Cook Islands flagged vessels.
+                        </p>
+                    </div>
+
                 </div>
-                            <div class="content_hover position-absolute">
-                       <span class="icon pe-2"><i class="fa-solid fa-arrow-right hover-icon-position"></i></span>
-                <a href="">
-                    <h3 class="text-white fs-4">Bunker/Wrecks/CLC Services</h3>
-                </a>
-                <p class="text-p">
-                    There is no legal or other impediment to any P&I Club / Insurer 
-                    offering cover to Cook Islands flagged vessels.
-                </p>
-            </div>
-        
-             </div>
-              <div class="popular-services position-relative mt-5">
-                <img src="./img/popular services img 4.jpg" alt="" class="image-fluid w-100">
-                <div class="popular-ser-desc position-absolute">
-                    <h3 class="text-white fs-4">Yacht Registration</h3>
+                <div class="popular-services position-relative mt-5">
+                    <img src="./img/popular services img 4.jpg" alt="" class="image-fluid w-100">
+                    <div class="popular-ser-desc position-absolute">
+                        <h3 class="text-white fs-4">Yacht Registration</h3>
+                    </div>
+                    <div class="content_hover position-absolute">
+                        <span class="icon pe-2"><i class="fa-solid fa-arrow-right hover-icon-position"></i></span>
+                        <a href="">
+                            <h3 class="text-white fs-4">Bunker/Wrecks/CLC Services</h3>
+                        </a>
+                        <p class="text-p">
+                            There is no legal or other impediment to any P&I Club / Insurer
+                            offering cover to Cook Islands flagged vessels.
+                        </p>
+                    </div>
                 </div>
-                            <div class="content_hover position-absolute">
-                       <span class="icon pe-2"><i class="fa-solid fa-arrow-right hover-icon-position"></i></span>
-                <a href="">
-                    <h3 class="text-white fs-4">Bunker/Wrecks/CLC Services</h3>
-                </a>
-                <p class="text-p">
-                    There is no legal or other impediment to any P&I Club / Insurer 
-                    offering cover to Cook Islands flagged vessels.
-                </p>
-            </div>
-             </div>
             </div>
         </div>
     </div>

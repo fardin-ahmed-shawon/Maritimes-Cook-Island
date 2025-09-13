@@ -205,7 +205,8 @@ a i{
 <!------------------------ Your Content Start From Here --------------------->
 <!--=======================================================================-->
 
-<!-- Hero Banner Start -->
+<div>
+    <!-- Hero Banner Start -->
 <div class="container-fluid bg-primary py-5 mb-5 hero-banner about-mci-hero">
     <div class="container py-5">
         <div class="row justify-content-center">
@@ -220,19 +221,17 @@ a i{
 <div class="container-fluid">
     <div class="container">
         <div class="row align-items-center mb-4">
-            <!-- Left Title -->
-            <div class="col-md-8 choose_us_title">
-                <h2 class="mb-0">Cook Islands Lawyers</h2>
-            </div>
-            <!-- Right Title -->
-            <div class="col-md-4 text-start mt-3 mt-md-0 ps-4 popular_title">
-                <h2 class="mb-0">Popular Services</h2>
-            </div>
+
+
         </div>
 
         <div class="row choose_us">
-            <div class="col-md-8 bg_color">
-                <div class="row p-2">
+            <div class="col-md-8 ">
+                            <!-- Left Title -->
+            <div class="col-md-8 choose_us_title">
+                <h2 class="mb-5">Cook Islands Lawyers</h2>
+            </div>
+                <div class="row p-2 bg_color">
                     <div class="col-md-12 py-3">
                         <div class="row">
                             <div class="col-md-12">
@@ -346,7 +345,11 @@ a i{
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 ps-4">
+            <div class="col-md-4 ps-4 d-none d-lg-block">
+                            <!-- Right Title -->
+            <div class="text-start mt-3 mt-md-0 ps-4 popular_title">
+                <h2 class="mb-5">Popular Services</h2>
+            </div>
                                 <div class="popular-services position-relative mt-5">
                     <img src="./img/popular services img 1.jpg" alt="" class="image-fluid w-100">
 
@@ -423,6 +426,7 @@ a i{
             </div>
         </div>
     </div>
+</div>
 </div>
 
 <!--========================================================================-->

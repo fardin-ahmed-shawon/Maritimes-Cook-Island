@@ -14,7 +14,7 @@ $page_title = 'Blank'; // Set the page title
         font-family: "Roboto", Sans-serif;
     }
 
-    .designation {
+    .designation { 
         color: #333333;
         font-weight: 400;
     }
@@ -40,6 +40,7 @@ $page_title = 'Blank'; // Set the page title
     <div class="container">
         <div class="row">
             <div class="meet-title">
+                
                 <p class="text-center fs-5">Discover the individuals leading our operations. Our management team comprises a range of skills and expertise, working collectively to achieve our objectives.</p>
             </div>
         </div>
@@ -49,7 +50,7 @@ $page_title = 'Blank'; // Set the page title
 <section class="meet-the-team mt-5">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12 col-lg-6">
                 <div class="meet-team-item">
                     <div class="row">
                         <div class="col-4 team-img">
@@ -73,7 +74,7 @@ $page_title = 'Blank'; // Set the page title
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-12 col-lg-6">
                 <div class="meet-team-item">
                     <div class="row">
                         <div class="col-4 team-img">
@@ -98,7 +99,7 @@ $page_title = 'Blank'; // Set the page title
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-5">
+            <div class="col-md-12 col-lg-6 mt-5">
                 <div class="meet-team-item">
                     <div class="row">
                         <div class="col-4 team-img">
@@ -123,7 +124,7 @@ $page_title = 'Blank'; // Set the page title
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-5">
+            <div class="col-md-12 col-lg-6 mt-5">
                 <div class="meet-team-item">
                     <div class="row">
                         <div class="col-4 team-img">
@@ -150,7 +151,7 @@ $page_title = 'Blank'; // Set the page title
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-5">
+            <div class="col-md-12 col-lg-6 mt-5">
                 <div class="meet-team-item">
                     <div class="row">
                         <div class="col-4 team-img">
@@ -178,7 +179,7 @@ $page_title = 'Blank'; // Set the page title
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-5">
+            <div class="col-md-12 col-lg-6 mt-5">
                 <div class="meet-team-item">
                     <div class="row">
                         <div class="col-4 team-img">
@@ -207,7 +208,7 @@ $page_title = 'Blank'; // Set the page title
                 </div>
             </div>
 
-            <div class="col-md-6 mt-5">
+            <div class="col-md-12 col-lg-6 mt-5">
                 <div class="meet-team-item">
                     <div class="row">
                         <div class="col-4 team-img">
@@ -236,7 +237,7 @@ $page_title = 'Blank'; // Set the page title
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-5">
+            <div class="col-md-12 col-lg-6 mt-5">
                 <div class="meet-team-item">
                     <div class="row">
                         <div class="col-4 team-img">

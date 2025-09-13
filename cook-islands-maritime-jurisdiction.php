@@ -136,7 +136,7 @@ $page_title = 'Blank'; // Set the page title
         visibility: visible;
     }
 
-    a i {
+    .hover-icon-position {
         color: white;
         position: absolute;
         top: 16px;
@@ -223,7 +223,7 @@ $page_title = 'Blank'; // Set the page title
                                     <br>
                                     <div class="d-flex justify-content-between border border-top-0 border-start-0 border-end-0">
                                         <p class="text-bg p-2">Legal Opinion from Norton Rose Fulbright – Cook Islands Ships Registry</p>
-                                        <a href="https://maritimecookislands.com/wp-content/uploads/Legal-Opinion-from-Norton-Rose-Fulbright-Cook-Islands-Ships-Registry.pdf">
+                                        <a href="./pdf/Legal-Opinion-from-Norton-Rose-Fulbright-Cook-Islands-Ships-Registry">
                                             <img src="./img/pdf icon.png" alt="" class="">
                                         </a>
                                     </div>
@@ -243,7 +243,7 @@ $page_title = 'Blank'; // Set the page title
 
                     <div class="content_hover position-absolute">
                         <a href="">
-                            <a href=""> <span class="ms-5"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a href=""> <span class="ms-5"><i class="fa-solid fa-arrow-right hover-icon-position"></i></a>
                             <h3 class="text-white fs-4">Merchant Ships</h3>
                         </a>
                         <p class="text-p">
@@ -259,7 +259,7 @@ $page_title = 'Blank'; // Set the page title
                     </div>
 
                     <div class="content_hover position-absolute">
-                        <a href=""> <span class="ms-5"><i class="fa-solid fa-arrow-right"></i></a>
+                        <a href=""> <span class="ms-5"><i class="fa-solid fa-arrow-right hover-icon-position"></i></a>
                         <a href="">
                             <h3 class="text-white fs-4">Bunker/Wrecks/CLC Services</h3>
                         </a>
