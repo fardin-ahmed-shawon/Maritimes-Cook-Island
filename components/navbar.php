@@ -225,8 +225,8 @@
   <div class="nav-container">
 
     <!-- Brand -->
-    <a href="#" class="brand" aria-label="Maritime Cook Islands home">
-  <img src="./img/logo.svg" alt="">
+    <a href="index.php" class="brand" aria-label="Maritime Cook Islands home">
+      <img src="./img/logo.svg" alt="">
     </a>
 
     <!-- hamburger -->
@@ -266,7 +266,7 @@
             <li><a href="cook-islands-maritime-legislation.php">Cook Islands Maritime Legislation</a></li>
             <li><a href="cook-islands-maritime-jurisdiction.php">Cook Islands Maritime Jurisdiction</a></li>
             <li><a href="international-maritime-organization.php">International Maritime Organizaiton</a></li>
-            <li><a href="cook-islands-lawyers">CookIslands Lawyers</a></li>
+            <li><a href="cook-islands-lawyers.php">CookIslands Lawyers</a></li>
             <li><a href="cook-islands-approved-surveyors.php">Approved Fule Suppliers</a></li>
           </ul>
         </div>
