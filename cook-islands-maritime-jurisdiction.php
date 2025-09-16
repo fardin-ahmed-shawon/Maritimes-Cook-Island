@@ -145,7 +145,7 @@ $page_title = 'Blank'; // Set the page title
         font-size: 40px;
     }
 
-    a img {
+    .pdf-img {
         width: 30px;
     }
 
@@ -224,7 +224,7 @@ $page_title = 'Blank'; // Set the page title
                                     <div class="d-flex justify-content-between border border-top-0 border-start-0 border-end-0">
                                         <p class="text-bg p-2">Legal Opinion from Norton Rose Fulbright – Cook Islands Ships Registry</p>
                                         <a href="./pdf/Legal-Opinion-from-Norton-Rose-Fulbright-Cook-Islands-Ships-Registry">
-                                            <img src="./img/pdf icon.png" alt="" class="">
+                                            <img src="./img/pdf icon.png" alt="" class="pdf-img">
                                         </a>
                                     </div>
                                 </div>

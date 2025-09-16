@@ -323,13 +323,13 @@
 
         <div class="dropdown" role="menu" aria-label="Survey submenu">
           <ul>
-            <li><a href="classification-socities">Classification Societies</a></li>
+            <li><a href="classification-societies.php">Classification Societies</a></li>
             <li><a href="recognised-security-organisations.php">Recognised Security Organizations</a></li>
             <li><a href="cook-islands-approved-surveyors.php">Cook Islands Approved Surveyors</a></li>
-            <li><a href="port-state-control=-compliance-program.php">Port and State Control Compliance Support</a></li>
+            <li><a href="port-state-control-compliance-program.php">Port and State Control Compliance Support</a></li>
             <li><a href="electronic-certificate-verification.php">Electronic Certification Verification</a></li>
-            <li><a href="ship-to-ship transfers.php">Ship to Ship Transfers</a></li>
-            <li><a href="safe-manning-guidlines.php">Safe Manning Guidlines</a></li>
+            <li><a href="ship-to-ship-transfers.php">Ship to Ship Transfers</a></li>
+            <li><a href="safe-manning-guidelines.php">Safe Manning Guidlines</a></li>
           </ul>
         </div>
       </li>
@@ -364,8 +364,8 @@
 
         <div class="dropdown" role="menu" aria-label="Info Center submenu">
           <ul>
-            <li><a href="#">Document Library</a></li>
-            <li><a href="#">Calendar of Events</a></li>
+            <li><a href="document-library.php">Document Library</a></li>
+            <li><a href="calendar-of-events.php">Calendar of Events</a></li>
           </ul>
         </div>
       </li>
